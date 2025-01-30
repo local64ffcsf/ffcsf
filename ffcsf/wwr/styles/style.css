@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Oswald:wght@200;300;400&family=Permanent+Marker&family=Protest+Guerrilla&family=Protest+Strike&family=REM:wght@100&family=Schoolbell&display=swap');
+
+#content {
+    max-width: 1600px; 
+    margin: 0 auto;
+}
+#logo_link {
+    padding: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav a {
+    text-align: center;
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: 'Oswald', 'Protest Guerrilla';
+    padding: 35px;
+}
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+    color: white;
+}
+#background {
+        height: 725px; 
+        background-color:#ceb7b3;
+        margin-bottom: 200px;
+        grid-column: 1/11;
+        grid-row: 4/9;
+}
+Body {
+    max-width: 1600px;
+    background-color: #C16200;
+    font-family: 'Protest Guerrilla', 'Cherry Cream Soda', 'Protest Strike' ;
+    font-size: 22px;
+    margin: 0 auto;
+    padding:0;
+}
+h2 {
+    margin:0;
+}
+header {
+    background-color: #37423D;
+    opacity: 60%;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: black;
+    color: #ceb7b3;
+}
+.join {
+    background-color:#ceb7b3;
+    color: black;
+    text-decoration: none;
+    font-family: 'Oswald', 'Protest Guerrilla';
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+footer {
+    background-color: #ceb7b3;
+}
+.msg {
+    background-color:slategray;
+    font-family: 'Permanent Marker', 'Schoolbell', 'REM';
+    font-size: 1em;
+    padding: 35px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    grid-column: 6/10;
+    grid-row: 6/7;
+    box-shadow: 5px 5px 10px #ceb7b3;
+}
+.msg p {
+    padding-bottom: 15px;
+}
+.book {
+    background-color:#ceb7b3;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-family: 'Oswald', 'Protest Guerrilla';
+}
+.card-img {
+    border: 10px solid #37423D;
+    width: 100%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #ceb7b3;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
+    box-shadow: 5px 5px 10px #ceb7b3;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+main section img {
+    box-sizing: border-box;
+}
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+.rivers-card {
+    margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+.camping-card {
+    margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.rapids-card {
+    margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+#hero-msg {
+    text-align:center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg h4 {
+    color: white;
+}
+.home-grid {
+    text-align: center;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#rivershome-grid {
+    max-width: 1600px;
+}
+#heroriver-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#heroriver {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#heroriver-img {
+    width: 100%;
+    height: 100%
+}
+#heroriver-msg {
+    text-align:center;
+    grid-column:2/3;
+    grid-row: 1/3;
+    margin-top: 100px;
+    color:aqua;
+    font-size: 3em;
+}
+#rapidsrafting-content {
+    float: left;
+    padding: 30px;
+}
+.rapidsrafting-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #37423D;
+    color:#C16200;
+}
+#kayak-content {
+    padding: 30px;
+}
+.kayak-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #37423D;
+}
+.kayakcard-img {
+    Width: 800px;
+    Height: 550.15px;
+}
+.raftingcard-img {
+    float: right;
+    width: 800px;
+    height: 734.15px;
+}
+.canyon-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #37423D;
+    color: #C16200;
+}
+.canyoncard-img {
+    Width: 800px;
+    Height: 580.81px;
+}
+#canyon-content {
+    padding: 30px;
+}
+.social img {
+    padding-top: 15px;
+}
+footer p {
+    font-size:1.2em;
+    text-decoration: none;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer {
+    max-width: 1600px;
+    padding: 25px 50px;
+    padding-top: 30px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a{
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    #hero-msg h1 {
+        color: #ceb7b3;
+    }
+    .home-title {
+        font-size: 25px;
+    }
+    .rivers-card, .camping-card, .rapids-card {
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
