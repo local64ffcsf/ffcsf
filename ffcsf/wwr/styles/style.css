@@ -1,10 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Oswald:wght@200;300;400&family=Permanent+Marker&family=Protest+Guerrilla&family=Protest+Strike&family=REM:wght@100&family=Schoolbell&display=swap');
 
-#content {
-    max-width: 1600px; 
+#content { 
+    max-width: 1600px;
     margin: 0 auto;
-}
+  }
 #logo_link {
     padding: 5px;
     justify-self: center;
@@ -20,7 +20,8 @@ nav a {
 .home-title {
     font-size: 2em;
     margin-top: 10px;
-    color: white;
+    background-color: #95918e;
+    color: rgb(86, 4, 4);
 }
 #background {
         height: 725px; 
@@ -55,15 +56,19 @@ nav a:hover {
     color: #ceb7b3;
 }
 .join {
-    background-color:#ceb7b3;
+    background-color:#ece031;
     color: black;
     text-decoration: none;
     font-family: 'Oswald', 'Protest Guerrilla';
-    font-size: 18px;
+    font-size: 40px;
     line-height: 1.5em;
-    padding: 15px 30px;
+    padding: 20px 40px;
     margin-top: 50px;
     border-radius: 5px;
+}
+.join:hover {
+    background-color: rgb(245, 67, 103);
+    color: #37423D;
 }
 footer {
     background-color: #ceb7b3;
@@ -83,14 +88,17 @@ footer {
     padding-bottom: 15px;
 }
 .book {
-    background-color:#ceb7b3;
-    font-size: 18px;
-    color: black;
+    background-color:black;
+    font-size: 30px;
+    color: white;
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 20px 50px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-family: 'Oswald', 'Protest Guerrilla';
+}
+.book:hover{
+    background-color: rgb(11, 73, 35);
 }
 .card-img {
     border: 10px solid #37423D;
@@ -145,7 +153,8 @@ main section img {
     margin-top: 100px;
 }
 #hero-msg h4 {
-    color: white;
+    font-size: 30px;
+    color: black;
 }
 .home-grid {
     text-align: center;
@@ -248,6 +257,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
